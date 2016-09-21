@@ -1,8 +1,7 @@
 ## MaliciousMacroGenerator
 #Malicious Macro Generator Utility
----
+
 Simple utility design to generate obfuscated macro that also include a AV / Sandbox escape trick
----
 
 #Requirement
 ```
@@ -21,4 +20,11 @@ Usage: GenMacro.py [template] [domain] [offset] [payload] [output]
         output          Output filename
         
 python GenMacro.py "base.vba" "RingZer0" 3 "cmd.exe /c ping ringzer0team.com" malicious.vba
+```
+
+#Evasion technique
+```
+The macro is fetching the USERDOMAIN environment variable and compare the value with a predefined one. If they match the final payload is executed.
+
+The python script will also generate obfuscated code to avoid heuristic detection
 ```
