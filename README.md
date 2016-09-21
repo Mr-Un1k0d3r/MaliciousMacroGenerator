@@ -28,3 +28,10 @@ The macro is fetching the USERDOMAIN environment variable and compare the value 
 
 The python script will also generate obfuscated code to avoid heuristic detection
 ```
+
+#Credit
+```
+Mr.Un1k0d3r RingZer0 Team
+https://ringzer0team.com
+charles.hamilton@mandiant.com
+```
