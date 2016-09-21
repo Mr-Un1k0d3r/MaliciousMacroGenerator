@@ -23,15 +23,15 @@ python GenMacro.py "base.vba" "RingZer0" 3 "cmd.exe /c ping ringzer0team.com" ma
 ```
 
 #Evasion technique
-```
+
 The macro is fetching the USERDOMAIN environment variable and compare the value with a predefined one. If they match the final payload is executed.
 
 The python script will also generate obfuscated code to avoid heuristic detection
-```
+
 
 #Credit
-```
+
 Mr.Un1k0d3r RingZer0 Team
 https://ringzer0team.com
 charles.hamilton@mandiant.com
-```
+
