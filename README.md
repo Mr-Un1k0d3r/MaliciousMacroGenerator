@@ -6,7 +6,7 @@ Simple utility design to generate obfuscated macro that also include a AV / Sand
 #Requirement
 ```
 Python 2.7
-Python 3.4 (Not tested)
+Python 3.4 (Not supported yet)
 ```
 
 #Usage
