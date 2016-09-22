@@ -21,7 +21,18 @@ python GenMacro.py configs/generic-cmd-domain-evasion.json malicious.vba
 
 #Config file
 ```
+Example of a macro config file.
 
+{
+	"description": "Generic command exec payload including domain check",
+	"template": "templates/generic-cmd-domain-evasion.vba",
+	"varcount": 50,
+	"encodingoffset": 4,
+	"encodedvars": 	{
+				"DOMAIN": "RINGZER0"
+			},
+	"payload": "cmd.exe /c ping ringzer0team.com"
+}
 ```
 
 #Evasion technique
