@@ -1,0 +1,9 @@
+{
+	"description": "Generic command exec payload including domain check",
+	"template": "../template/base.vba",
+	"varcount": 50,
+	"encodingoffset": 4,
+	"encodedvars": 	{
+						"DOMAIN": "RINGZER0"
+					},
+	"payload": "cmd.exe /c ping ringzer0team.com"}
