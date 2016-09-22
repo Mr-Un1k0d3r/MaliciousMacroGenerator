@@ -4,6 +4,7 @@
 	"varcount": 50,
 	"encodingoffset": 4,
 	"encodedvars": 	{
-						"DOMAIN": "RINGZER0"
-					},
-	"payload": "cmd.exe /c ping ringzer0team.com"}
+				"DOMAIN": "RINGZER0"
+			},
+	"payload": "cmd.exe /c ping ringzer0team.com"
+}
