@@ -11,15 +11,17 @@ Python 3.4 (Not supported yet)
 
 #Usage
 ```
-Usage: GenMacro.py [template] [domain] [offset] [payload] [output]
+Usage: GenMacro.py [config] [output]
 
-        template        Template macro
-        domain          Target domain name (USERDOMAIN env variable value)
-        offset          Encoding offset (default 3)
-        payload         Payload to be executed
-        output          Output filename
+        config  Config file that contain generator information
+        output  Output filename for the macro
         
-python GenMacro.py "base.vba" "RingZer0" 3 "cmd.exe /c ping ringzer0team.com" malicious.vba
+python GenMacro.py configs/generic-cmd-domain-evasion.json malicious.vba
+```
+
+#Config file
+```
+
 ```
 
 #Evasion technique
