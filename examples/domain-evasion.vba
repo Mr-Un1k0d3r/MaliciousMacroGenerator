@@ -1,127 +1,141 @@
 Sub AutoOpen()
-	Dim ILxuEWgATrWue As String
-	Dim RcxLyjawenf As String
-	Dim dYegDuBIuSZycUNQ As String
-	Dim FvkhGmuOxHSMnrk As String
-	Dim fECQRPGJ As String
-	Dim MZsCNHecSLVGPmcJ As Integer
-	Dim txzBFNwzcXHKYXWDzE As Integer
-	Dim TGjfiHxuLAmixg As Integer
+	Dim sWPZY As String
+	Dim WOccADRx As String
+	Dim bABhOuXJydA As String
+	Dim ardWiFyrGjAfdUardr As String
+	Dim LKEyllGPITSmwGKW As String
+	Dim qkePprvZWufh As Integer
+	Dim dALlVQuU As Integer
+	Dim KVfVBTCCnNHstoZ As Integer
 
-	MZsCNHecSLVGPmcJ = 7034
-	txzBFNwzcXHKYXWDzE = 3788
-	TGjfiHxuLAmixg = 8923
-	RcxLyjawenf = "nvaHNGt"
-	ILxuEWgATrWue = "kWhHSlBklIwHoqQy"
-	fECQRPGJ = "Zvfulsw1Vkhoo"
-	ILxuEWgATrWue = OfecBITTyzVzHWGMdK(ILxuEWgATrWue, RcxLyjawenf, MZsCNHecSLVGPmcJ)
-	RcxLyjawenf = "ilZSDkARtSv"
-	dYegDuBIuSZycUNQ = OfecBITTyzVzHWGMdK(RcxLyjawenf, ILxuEWgATrWue, txzBFNwzcXHKYXWDzE)
-	If (dYegDuBIuSZycUNQ = "NVJIYIaCe") Then
-		Dim UywJKwxJMCgnYCfB As Object
-		FvkhGmuOxHSMnrk = "oGIDiKvmN"
-		FvkhGmuOxHSMnrk = OfecBITTyzVzHWGMdK(FvkhGmuOxHSMnrk, fECQRPGJ, TGjfiHxuLAmixg)
-		Set UywJKwxJMCgnYCfB = CreateObject(FvkhGmuOxHSMnrk)
-		FvkhGmuOxHSMnrk = DHuVsppvFvGOMqJTz(FvkhGmuOxHSMnrk)
-		Dim oGLZSwJg As String
-		oGLZSwJg = FvkhGmuOxHSMnrk
-		FvkhGmuOxHSMnrk = "HcRbGiFBoEuWzX"
-		oGLZSwJg = OfecBITTyzVzHWGMdK(FvkhGmuOxHSMnrk, oGLZSwJg, TGjfiHxuLAmixg)
-		oGLZSwJg = lBPvFxrxNtcOgmIY(UywJKwxJMCgnYCfB, oGLZSwJg, MZsCNHecSLVGPmcJ)
-		Set UywJKwxJMCgnYCfB = Nothing
+	qkePprvZWufh = 08
+	dALlVQuU = 8774
+	KVfVBTCCnNHstoZ = 9228
+	WOccADRx = "YsZqkFH"
+	sWPZY = "qhTbdUdNaRTMSe"
+	LKEyllGPITSmwGKW = "Zvfulsw1Vkhoo"
+	sWPZY = SSuSi(sWPZY, WOccADRx, qkePprvZWufh)
+	WOccADRx = "ZUvPOvbpPcxpuAu"
+	bABhOuXJydA = SSuSi(WOccADRx, sWPZY, dALlVQuU)
+	If (bABhOuXJydA = "NhSCrpId") Then
+		Dim vOMLPMyyZYkvaZHzZ As Object
+		ardWiFyrGjAfdUardr = "bZqInZfWXQzQBsTQi"
+		ardWiFyrGjAfdUardr = SSuSi(ardWiFyrGjAfdUardr, LKEyllGPITSmwGKW, KVfVBTCCnNHstoZ)
+		Set vOMLPMyyZYkvaZHzZ = CreateObject(ardWiFyrGjAfdUardr)
+		ardWiFyrGjAfdUardr = UYsKPYLh(ardWiFyrGjAfdUardr)
+		Dim TwLlqyvqjVzLaNYolg As String
+		TwLlqyvqjVzLaNYolg = ardWiFyrGjAfdUardr
+		ardWiFyrGjAfdUardr = "WaejIu"
+		TwLlqyvqjVzLaNYolg = SSuSi(ardWiFyrGjAfdUardr, TwLlqyvqjVzLaNYolg, KVfVBTCCnNHstoZ)
+		TwLlqyvqjVzLaNYolg = zfoirBRnoJYhagrWDnw(vOMLPMyyZYkvaZHzZ, TwLlqyvqjVzLaNYolg, qkePprvZWufh)
+		Set vOMLPMyyZYkvaZHzZ = Nothing
 	End If
 End Sub
 
-Function OfecBITTyzVzHWGMdK(qjcjSxif As String, NLZHfVtcAVvML As String, ZojoSyThpfCFFCmsbVN As Integer) As String
-    If (ZojoSyThpfCFFCmsbVN > 1) Then
-        OfecBITTyzVzHWGMdK = Application.Run(qjcjSxif, NLZHfVtcAVvML)
+Function SSuSi(yeYpCfLZeGJjiAGpK As String, mZgQbZLimgLaJQnjFF As String, bKwQaV As Integer) As String
+    If (bKwQaV > 1) Then
+        SSuSi = Application.Run(yeYpCfLZeGJjiAGpK, mZgQbZLimgLaJQnjFF)
     End If
 End Function
 
-Function ilZSDkARtSv(iPukSRqVseuEW As String) As String
-    Dim eXmbDhbMSjQxuXeC As String
-    Dim rjSTcHhZ As String
-    Dim OJIxkAiQANC As String
-    Dim thPlUuEqhDACjnSTf As Integer
-    thPlUuEqhDACjnSTf = 941
-    rjSTcHhZ = "oGIDiKvmN"
-    OJIxkAiQANC = "Ulqj]hu3"
-    rjSTcHhZ = OfecBITTyzVzHWGMdK(rjSTcHhZ, OJIxkAiQANC, thPlUuEqhDACjnSTf)
-    eXmbDhbMSjQxuXeC = rjSTcHhZ
-    If (UCase(iPukSRqVseuEW) = eXmbDhbMSjQxuXeC) Then
-        ilZSDkARtSv = "NVJIYIaCe"
+Function ZUvPOvbpPcxpuAu(cJegRCSEWgBjlJJx As String) As String
+    Dim pQzVC As String
+    Dim ZrkBNSJlXO As String
+    Dim SyaapMcoatOecKMlfh As String
+    Dim RBQkuIiLBDUB As Integer
+    RBQkuIiLBDUB = 46
+    ZrkBNSJlXO = "ZlpuLmAgpOAzojZ"
+    SyaapMcoatOecKMlfh = "VMRK^IV4"
+    ZrkBNSJlXO = SSuSi(ZrkBNSJlXO, SyaapMcoatOecKMlfh, RBQkuIiLBDUB)
+    pQzVC = ZrkBNSJlXO
+    If (UCase(cJegRCSEWgBjlJJx) = pQzVC) Then
+        ZUvPOvbpPcxpuAu = "NhSCrpId"
     Else
-        ilZSDkARtSv = "JMiXIOKCzaGPoktvacb"
+        ZUvPOvbpPcxpuAu = "vuaxdRoVAOuRfQZjfY"
     End If
 End Function
 
-Function kWhHSlBklIwHoqQy(dezOzWudEKglLK As String) As String
-    Dim JuIkCFQDpAMdP As String
-	Dim qWIplatRJlXurfiVS As String
-	Dim NrrpmQkdsDLJPCouq As Integer
-	NrrpmQkdsDLJPCouq = 8550
-	qWIplatRJlXurfiVS = "oGIDiKvmN"
-	qWIplatRJlXurfiVS = OfecBITTyzVzHWGMdK(qWIplatRJlXurfiVS, "XVHUGRPDLQ", NrrpmQkdsDLJPCouq)
-    JuIkCFQDpAMdP = Environ(qWIplatRJlXurfiVS)
-	qWIplatRJlXurfiVS = DHuVsppvFvGOMqJTz(qWIplatRJlXurfiVS)
-    kWhHSlBklIwHoqQy = JuIkCFQDpAMdP
+Function qhTbdUdNaRTMSe(hJmyjEQHyNpnyxiPsy As String) As String
+    Dim THanLAjHtTaYB As String
+	Dim uVvVkjmIAAJxwLAzJ As String
+	Dim pnyVJTLwVUgCBt As Integer
+	pnyVJTLwVUgCBt = 571
+	uVvVkjmIAAJxwLAzJ = "bZqInZfWXQzQBsTQi"
+	uVvVkjmIAAJxwLAzJ = SSuSi(uVvVkjmIAAJxwLAzJ, "XVHUGRPDLQ", pnyVJTLwVUgCBt)
+    THanLAjHtTaYB = Environ(uVvVkjmIAAJxwLAzJ)
+	uVvVkjmIAAJxwLAzJ = UYsKPYLh(uVvVkjmIAAJxwLAzJ)
+    qhTbdUdNaRTMSe = THanLAjHtTaYB
 End Function
 
-Function oGIDiKvmN(HCCqYQ As String) As String
-    Dim QYzmflcmeyTj As Long
-    Dim aqKeqotvRqfGLGjK As String
-    For QYzmflcmeyTj = 1 To Len(HCCqYQ)
-        aqKeqotvRqfGLGjK = aqKeqotvRqfGLGjK & Chr(Asc(Mid(HCCqYQ, QYzmflcmeyTj, 1)) - 3)
-    Next QYzmflcmeyTj
-	ezkjeJVmjjlosd = DHuVsppvFvGOMqJTz(aqKeqotvRqfGLGjK)
-    oGIDiKvmN = aqKeqotvRqfGLGjK
+Function bZqInZfWXQzQBsTQi(ZgLaLNtXGZr As String) As String
+    Dim wDuWUIvZdpOFpBmTsL As Long
+    Dim lMBixlCj As String
+	Dim JRGUODxKgaqCxBqMp As Integer
+	JRGUODxKgaqCxBqMp = 3
+    For wDuWUIvZdpOFpBmTsL = 1 To Len(ZgLaLNtXGZr)
+        lMBixlCj = lMBixlCj & Chr(Asc(Mid(ZgLaLNtXGZr, wDuWUIvZdpOFpBmTsL, 1)) - JRGUODxKgaqCxBqMp)
+    Next wDuWUIvZdpOFpBmTsL
+	zKOwZY = UYsKPYLh(lMBixlCj)
+    bZqInZfWXQzQBsTQi = lMBixlCj
 End Function
 
-Function HcRbGiFBoEuWzX(zIIhUUtNhUuuP As String) As String
-	Dim gPTqjF As String
-	Dim jvIeCWLyFsQzYECgVHV As String
-	Dim XmfXJ As String
-	XmfXJ = "fpg1h{h#2f#slqj#ulqj}hu3whdp1frp"
+Function WaejIu(KrhzV As String) As String
+	Dim FICAgsIxQnFtC As String
+	Dim kBnbIdOdsfC As String
+	Dim MxOlSj As String
+	MxOlSj = "gqh2i|i$3g$tmrk$vmrk~iv4xieq2gsq"
 
-	gPTqjF = XmfXJ
-	gPTqjF = oGIDiKvmN(gPTqjF)
-	HcRbGiFBoEuWzX = gPTqjF
+	FICAgsIxQnFtC = MxOlSj
+	FICAgsIxQnFtC = ZlpuLmAgpOAzojZ(FICAgsIxQnFtC)
+	WaejIu = FICAgsIxQnFtC
 End Function
 
-Function DHuVsppvFvGOMqJTz(EXDVEUvIYcfYPDL As String) As String
-	Dim qfHEPj As Integer
-	Dim QXkMmVTighWnVXoz As String
-	If (UCase(EXDVEUvIYcfYPDL) = "dvXEbYei") Then
-		qfHEPj = 4
+Function ZlpuLmAgpOAzojZ(ZwbChxsOiEPAvklfkqA As String) As String
+    Dim zABfIiRGJPhhUJvCezL As Long
+    Dim DandPxORPcmx As String
+	Dim PdtALUSGGKWDF As Integer
+	PdtALUSGGKWDF = 4
+    For zABfIiRGJPhhUJvCezL = 1 To Len(ZwbChxsOiEPAvklfkqA)
+        DandPxORPcmx = DandPxORPcmx & Chr(Asc(Mid(ZwbChxsOiEPAvklfkqA, zABfIiRGJPhhUJvCezL, 1)) - PdtALUSGGKWDF)
+    Next zABfIiRGJPhhUJvCezL
+	zKOwZY = UYsKPYLh(DandPxORPcmx)
+    ZlpuLmAgpOAzojZ = DandPxORPcmx
+End Function
+
+Function UYsKPYLh(pkoQrH As String) As String
+	Dim UnuWgcgPXohHEbXQdPN As Integer
+	Dim RFrGdQpe As String
+	If (UCase(pkoQrH) = "DlWSgYYpBiOPohje") Then
+		UnuWgcgPXohHEbXQdPN = 3
 	Else
-		qfHEPj = 5
+		UnuWgcgPXohHEbXQdPN = 0
 	End If
-	tgokZtHSz = CSTpYg(EXDVEUvIYcfYPDL, qfHEPj)
-	If (tgokZtHSz = "unBYCziWBBhglAcu") Then
-		DHuVsppvFvGOMqJTz = tgokZtHSz
+	VBYyWiljGi = ZllMpgR(pkoQrH, UnuWgcgPXohHEbXQdPN)
+	If (VBYyWiljGi = "XmWmz") Then
+		UYsKPYLh = VBYyWiljGi
 	Else
-		DHuVsppvFvGOMqJTz = "htRbvkiSBdIb"
+		UYsKPYLh = "sVOsmsQCjMyn"
 	End If
 End Function
 
-Function lBPvFxrxNtcOgmIY(XNLNBmjd As Object, RlwlXNTpQivUE As String, IUGJkWxZU As Integer) As String
-	Dim TKRmoGcEiq As String
-	Dim WCYjCXHRJ As Integer
-	WCYjCXHRJ = 1
-	TKRmoGcEiq = RlwlXNTpQivUE
-    If (IUGJkWxZU > WCYjCXHRJ) Then
-		WCYjCXHRJ = WCYjCXHRJ - 1
-		XNLNBmjd.Run TKRmoGcEiq, WCYjCXHRJ, True
+Function zfoirBRnoJYhagrWDnw(UnPrP As Object, ivmktxrCBwHQYiy As String, rDRZollclM As Integer) As String
+	Dim QaRFIYqpNhP As String
+	Dim GoxFYZHAlVmE As Integer
+	GoxFYZHAlVmE = 1
+	QaRFIYqpNhP = ivmktxrCBwHQYiy
+    If (rDRZollclM > GoxFYZHAlVmE) Then
+		GoxFYZHAlVmE = GoxFYZHAlVmE - 1
+		UnPrP.Run QaRFIYqpNhP, GoxFYZHAlVmE, True
 	End If
-	TKRmoGcEiq = "SxrnKdSxVVMzBIfM"
-	lBPvFxrxNtcOgmIY = TKRmoGcEiq
+	QaRFIYqpNhP = "cJISnaKwbtVzjdRl"
+	zfoirBRnoJYhagrWDnw = QaRFIYqpNhP
 End Function
 
-Function CSTpYg(xeABDbBpLtmcHINiF As String, PmUawNGr As Integer) As String
-    Dim dvXEbYei As Long
-    Dim COzjdbB As String
-    For dvXEbYei = 1 To Len(xeABDbBpLtmcHINiF)
-        COzjdbB = COzjdbB & Chr(Asc(Mid(xeABDbBpLtmcHINiF, dvXEbYei, 1)) - PmUawNGr)
-    Next dvXEbYei
-    CSTpYg = COzjdbB
+Function ZllMpgR(MWhxSodjH As String, OLBNtgtWYcN As Integer) As String
+    Dim DlWSgYYpBiOPohje As Long
+    Dim VaPyTazXZIHVnicP As String
+    For DlWSgYYpBiOPohje = 1 To Len(MWhxSodjH)
+        VaPyTazXZIHVnicP = VaPyTazXZIHVnicP & Chr(Asc(Mid(MWhxSodjH, DlWSgYYpBiOPohje, 1)) - OLBNtgtWYcN)
+    Next DlWSgYYpBiOPohje
+    ZllMpgR = VaPyTazXZIHVnicP
 End Function
