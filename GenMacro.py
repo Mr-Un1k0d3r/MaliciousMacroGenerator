@@ -111,7 +111,7 @@ def banner():
 	print "Malicious Macro Generator V1.1 - RingZer0 Team\nAuthor: Mr.Un1k0d3r charles.hamilton@mandiant.com\n"
 	
 def help():
-	print "Usage: %s [config] [output]\n\n\tconfig\tConfig file that contain generator information\n\toutput\t\tOutput filename for the macro" % sys.argv[0]
+	print "Usage: %s [config] [output]\n\n\tconfig\tConfig file that contain generator information\n\toutput\tOutput filename for the macro" % sys.argv[0]
 		
 if __name__ == "__main__":
 	config = ""
