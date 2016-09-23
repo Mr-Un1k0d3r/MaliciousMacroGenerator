@@ -30,7 +30,7 @@ Example of a macro config file.
 	"encodingoffset": 4,
 	"encodedvars": 	{
 				"DOMAIN": "RINGZER0"
-			},
+				},
 	"payload": "cmd.exe /c ping ringzer0team.com"
 }
 ```
