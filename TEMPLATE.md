@@ -8,7 +8,7 @@ This mean that everytime one of these keyword is found it will be replace with r
 ```
 Function func1(var1 As String) As String
   Dim var2 As String
-  Dim int1 As String
+  Dim int1 As Integer
   int1 = [SMALLINT]
   If (var2 = var1) Then
     func1 = "cond1"
