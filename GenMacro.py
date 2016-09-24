@@ -5,6 +5,9 @@ import os
 import re
 import json
 
+def get_version():
+	return "1.1"
+
 def load_config(filename):
 	config = load_data(filename)
 	items = {}
@@ -108,7 +111,7 @@ def save_macro(filename, buffer):
 	print "[*] Saving \"%s\" as the final macro" % filename
 	
 def banner():
-	print "Malicious Macro Generator V1.1 - RingZer0 Team\nAuthor: Mr.Un1k0d3r charles.hamilton@mandiant.com\n"
+	print "Malicious Macro Generator v%s - RingZer0 Team\nAuthor: Mr.Un1k0d3r charles.hamilton@mandiant.com\n" % get_version()
 	
 def help():
 	print "Usage: %s [config] [output]\n\n\tconfig\tConfig file that contain generator information\n\toutput\tOutput filename for the macro" % sys.argv[0]
