@@ -1,7 +1,7 @@
 {
 	"description": "Generic download exec payload including domain check",
 	"comment": "File is saved at the following path %temp%\\PATH.",
-	"template": "../template/downloader.vba",
+	"template": "templates/generic-downloader-domain-evasion.vba",
 	"varcount": 80,
 	"encodingoffset": 4,
 	"encodedvars": 	{
