@@ -35,10 +35,23 @@ Example of a macro config file.
 }
 ```
 
-#Evasion technique
+#Evasion techniques
+
+###### Domain check
 
 The macro is fetching the USERDOMAIN environment variable and compare the value with a predefined one. If they match the final payload is executed.
 
+###### Disk check
+
+The macro is looking for the total disk space. VMs and test machines use small disk most of the time. 
+
+###### Memory check
+
+The macro is looking for the total memory size. Vms and test machine use less resources.
+
+######  Uptime check
+
+The macro is looking for the system uptime. Sandboxes will return a short uptime.
 The python script will also generate obfuscated code to avoid heuristic detection
 
 
