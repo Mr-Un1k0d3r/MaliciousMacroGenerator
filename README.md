@@ -47,11 +47,14 @@ The macro is looking for the total disk space. VMs and test machines use small d
 
 ###### Memory check
 
-The macro is looking for the total memory size. Vms and test machine use less resources.
+The macro is looking for the total memory size. Vms and test machines use less resources.
 
 ######  Uptime check
 
 The macro is looking for the system uptime. Sandboxes will return a short uptime.
+
+###### Obfuscation 
+
 The python script will also generate obfuscated code to avoid heuristic detection
 
 
