@@ -11,12 +11,12 @@ Python 3.4 (Not supported yet)
 
 #Usage
 ```
-Usage: GenMacro.py [config] [output]
+Usage: MMG.py [config] [output]
 
         config  Config file that contain generator information
         output  Output filename for the macro
         
-python GenMacro.py configs/generic-cmd-domain-evasion.json malicious.vba
+python MMG.py configs/genric-cmd.json malicious.vba
 ```
 
 #Config file
