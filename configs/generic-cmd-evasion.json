@@ -1,0 +1,14 @@
+{
+	"description": "Generic command exec payload\nEvasion technique set to domain check",
+	"template": "templates/payloads/generic-cmd-evasion-template.vba",
+	"varcount": 150,
+	"encodingoffset": 4,
+	"chunksize": 200,
+	"encodedvars": 	{
+				"DOMAIN":"RINGZER0"
+			},
+	"vars": 	[],
+	"evasion": 	["encoder", "domain"],
+	"payload": "cmd.exe /c whoami"
+}
+
