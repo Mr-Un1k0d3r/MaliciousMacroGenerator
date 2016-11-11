@@ -8,6 +8,6 @@
 				"DOMAIN": "RINGZER0"
 			},
 	"vars": 	[],
-	"evasion": 	["none"],
+	"evasion": 	["encoder"],
 	"payload": "cmd.exe /c your payload"
 }
