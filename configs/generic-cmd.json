@@ -5,9 +5,8 @@
 	"encodingoffset": 4,
 	"chunksize": 200,
 	"encodedvars": 	{},
-	"vars": 		[],
-	"evasion": 		[
-						"encoder"
-					],
-	"payload": "cmd.exe /c echo pwn > C:\\work.txt"
+	"vars": 	[],
+	"evasion": 	["encoder"],
+	"payload": "cmd.exe /c whoami"
 }
+

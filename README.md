@@ -1,7 +1,6 @@
-## MaliciousMacroGenerator
 #Malicious Macro Generator Utility
 
-Simple utility design to generate obfuscated macro that also include a AV / Sandbox escape trick
+Simple utility design to generate obfuscated macro that also include a AV / Sandboxes escape mechanism.
 
 #Requirement
 ```
@@ -11,12 +10,15 @@ Python 3.4 (Not supported yet)
 
 #Usage
 ```
-Usage: GenMacro.py [config] [output]
+MMG.Malicious Macro Generator v2.0 - RingZer0 Team
+Author: Mr.Un1k0d3r mr.un1k0d3r@gmail.com
+
+Usage: MMG.py [config] [output]
 
         config  Config file that contain generator information
         output  Output filename for the macro
         
-python GenMacro.py configs/generic-cmd-domain-evasion.json malicious.vba
+python MMG.py configs/genric-cmd.json malicious.vba
 ```
 
 #Config file
