@@ -5,20 +5,9 @@
 	"encodingoffset": 4,
 	"chunksize": 200,
 	"encodedvars": 	{
-						"DOMAIN": "AD"
-					},
-	"vars": 		[
-						"func_evasion_encoder", 
-						"func_evasion_none",
-						"func_evasion_diskcheck",
-						"func_evasion_uptime"
-					],
-	"evasion": 		[
-						"encoder", 
-						"none",
-						"uptime",
-						"diskcheck",
-						"domain"
-					],
-	"payload": "cmd.exe /c random garbage"
+				"DOMAIN": "RINGZER0"
+			},
+	"vars": 	[],
+	"evasion": 	["none"],
+	"payload": "cmd.exe /c your payload"
 }
