@@ -1,7 +1,6 @@
-## MaliciousMacroGenerator
 #Malicious Macro Generator Utility
 
-Simple utility design to generate obfuscated macro that also include a AV / Sandbox escape trick
+Simple utility design to generate obfuscated macro that also include a AV / Sandboxes escape mechanism.
 
 #Requirement
 ```
