@@ -11,6 +11,9 @@ Python 3.4 (Not supported yet)
 
 #Usage
 ```
+MMG.Malicious Macro Generator v2.0 - RingZer0 Team
+Author: Mr.Un1k0d3r mr.un1k0d3r@gmail.com
+
 Usage: MMG.py [config] [output]
 
         config  Config file that contain generator information
