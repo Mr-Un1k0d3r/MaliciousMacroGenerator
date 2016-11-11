@@ -24,16 +24,18 @@ python MMG.py configs/genric-cmd.json malicious.vba
 #Config file
 ```
 Example of a macro config file.
-
 {
-	"description": "Generic command exec payload including domain check",
-	"template": "templates/generic-cmd-domain-evasion.vba",
-	"varcount": 50,
+	"description": "Generic command exec payload\nEvasion technique set to domain check",
+	"template": "templates/payloads/generic-cmd-evasion-template.vba",
+	"varcount": 150,
 	"encodingoffset": 4,
+	"chunksize": 200,
 	"encodedvars": 	{
-				"DOMAIN": "RINGZER0"
-				},
-	"payload": "cmd.exe /c ping ringzer0team.com"
+				"DOMAIN":"RINGZER0"
+			},
+	"vars": 	[],
+	"evasion": 	["encoder", "domain"],
+	"payload": "cmd.exe /c whoami"
 }
 ```
 
