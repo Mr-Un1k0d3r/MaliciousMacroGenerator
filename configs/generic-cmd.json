@@ -4,21 +4,10 @@
 	"varcount": 150,
 	"encodingoffset": 4,
 	"chunksize": 200,
-	"encodedvars": 	{
-						"DOMAIN": "AD"
-					},
-	"vars": 		[
-						"func_evasion_encoder", 
-						"func_evasion_none",
-						"func_evasion_diskcheck",
-						"func_evasion_uptime"
-					],
+	"encodedvars": 	{},
+	"vars": 		[],
 	"evasion": 		[
-						"encoder", 
-						"none",
-						"uptime",
-						"diskcheck",
-						"domain"
+						"encoder"
 					],
-	"payload": "cmd.exe /c random garbage"
+	"payload": "cmd.exe /c echo pwn > C:\\work.txt"
 }
