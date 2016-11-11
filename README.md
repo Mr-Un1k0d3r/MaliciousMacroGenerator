@@ -67,5 +67,3 @@ The python script will also generate obfuscated code to avoid heuristic detectio
 Mr.Un1k0d3r RingZer0 Team
 
 https://ringzer0team.com
-charles.hamilton@mandiant.com
-
