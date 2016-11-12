@@ -2,10 +2,7 @@ from lib.helper import Helper
 from lib.encoder import Encoder
 import sys
 
-if __name__ == "__main__":
-    # TODO:
-    # Make obfuscation way worse using "ExecuteGlobal" which is pretty much the equivalent of eval.
-    
+if __name__ == "__main__":  
     helper = Helper(sys.argv)
     helper.ParseConfig().ShowConfigDescription()
     
