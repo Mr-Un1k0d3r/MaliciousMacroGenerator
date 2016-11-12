@@ -22,8 +22,9 @@ python MMG.py configs/generic-cmd.json malicious.vba
 ```
 
 #Config file
+
+Example of a project config file.
 ```
-Example of a macro config file.
 {
 	"description": "Generic command exec payload\nEvasion technique set to domain check",
 	"template": "templates/payloads/generic-cmd-evasion-template.vba",
