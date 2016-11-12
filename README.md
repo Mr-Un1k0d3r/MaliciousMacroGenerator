@@ -10,11 +10,7 @@ Python 2.7
 #Usage
 ```
 MMG.Malicious Macro Generator v2.0 - RingZer0 Team
-<<<<<<< HEAD
 Author: Mr.Un1k0d3r
-=======
-Author: Mr.Un1k0d3r 
->>>>>>> 0681258ac2373e88b191486ba63c9902bfedf33b
 
 Usage: MMG.py [config] [output] (optional -list)
 
@@ -22,7 +18,6 @@ Usage: MMG.py [config] [output] (optional -list)
         output  Output filename for the macro
         -list   List all available payloads and evasion techniques
 
-        
 python MMG.py configs/generic-cmd.json malicious.vba
 ```
 
@@ -72,7 +67,3 @@ The python script will also generate obfuscated code to avoid heuristic detectio
 Mr.Un1k0d3r RingZer0 Team
 
 https://ringzer0team.com
-<<<<<<< HEAD
-
-=======
->>>>>>> 0681258ac2373e88b191486ba63c9902bfedf33b
