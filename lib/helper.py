@@ -1,5 +1,6 @@
 import json
 import os
+import glob
 
 class Helper:
     VERSION = "2.0"
@@ -11,12 +12,16 @@ class Helper:
         self.config = {}
     
     def ValidateArgv(self):
+        if "-list" in self.argv:
+            self.ListModules()
+            exit(0)
+        
         if len(self.argv) < 3:
             self.HelpMenu()
             self.ExitShowError("Missing arguments.")
             
     def HelpMenu(self):
-        print "Usage: %s [config] [output]\n\n\tconfig\tConfig file that contain generator information\n\toutput\tOutput filename for the macro" % self.argv[0]
+        print "Usage: %s [config] [output] (optional -list)\n\n\tconfig\tConfig file that contain generator information\n\toutput\tOutput filename for the macro\n\t-list\tList all available payloads and evasion techniques" % self.argv[0]
         
     def Banner(self):
         print "MMG.Malicious Macro Generator v%s - RingZer0 Team\nAuthor: Mr.Un1k0d3r mr.un1k0d3r@gmail.com\n" % Helper.VERSION
@@ -64,3 +69,20 @@ class Helper:
             self.ExitShowError("Failed to save \"%s\"." % filename)
         self.PrintSuccess("\"%s\" successfully saved to the disk." % filename)
         return self
+    
+    def ListModules(self):
+        path = os.path.dirname(os.path.realpath(__file__))
+        payloadPath = path + "/../templates/payloads/"
+        evasionPath = path + "/../templates/evasions/"
+        
+        self.PrintSuccess("List of available payloads")
+        self.GlobFolder(payloadPath)
+        
+        print "\n"
+        self.PrintSuccess("List of available evasion techniques")
+        self.GlobFolder(evasionPath)
+            
+    def GlobFolder(self, path):
+        for file in glob.glob(path + "*"):
+            print "\t" + file.replace(path, "")
+        
