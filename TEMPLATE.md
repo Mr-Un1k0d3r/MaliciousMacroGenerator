@@ -1,9 +1,9 @@
 ##Want to write your own template?
 
 #Variables
-At the moment the engine support the following keyword `"var", "func", "data", "cond", "int"`
+At the moment the engine support the following keyword `var, func, data, cond, int`
 
-The engine also support following variables `"[int]", "[smallint]"`.
+The engine also support following variables `[int], [smallint]`.
 
 This mean that everytime one of these keyword is found it will be replace with random value.
 
@@ -40,13 +40,15 @@ If you are using keyword that are not supported by the parser add the following 
 Want to add specific variable like a URL. Simply define it in the template like this `[URL]`
 
 ```
-Function func1(var1 As String) As String
+[use:myfunction]
+
+Function myfunction(var1 As String) As String
   Dim var2 As String
   Dim int1 As String
   int1 = [smallint1]
   var2 = "[URL]"
   If (var2 = var1) Then
-    func1 = "cond1"
+    myfunction = "cond1"
   End If
 End Function
 ```
