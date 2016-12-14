@@ -68,7 +68,7 @@ Once it will be parsed by the Python script the variable will be replace by the 
         	        "URL": "https://ringzer0team.com"
                 	},
 	"vars": 	[],
-	"evasion": 	["encoder"],
+	"evasion": 	["encoder", "domain"],
 	"payload": "cmd.exe /c whoami"
 }
 ```
