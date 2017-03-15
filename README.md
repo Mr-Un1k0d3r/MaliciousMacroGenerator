@@ -1,13 +1,13 @@
-#Malicious Macro Generator Utility
+# Malicious Macro Generator Utility
 
 Simple utility design to generate obfuscated macro that also include a AV / Sandboxes escape mechanism.
 
-#Requirement
+# Requirement
 ```
 Python 2.7
 ```
 
-#Usage
+# Usage
 ```
 MMG.Malicious Macro Generator v2.0 - RingZer0 Team
 Author: Mr.Un1k0d3r
@@ -21,7 +21,7 @@ Usage: MMG.py [config] [output] (optional -list)
 python MMG.py configs/generic-cmd.json malicious.vba
 ```
 
-#Config file
+# Config file
 
 Example of a project config file.
 ```
@@ -40,7 +40,7 @@ Example of a project config file.
 }
 ```
 
-#Evasion techniques
+# Evasion techniques
 
 ###### Domain check
 
@@ -62,8 +62,9 @@ The macro is looking for the system uptime. Sandboxes will return a short uptime
 
 The python script will also generate obfuscated code to avoid heuristic detection
 
+###### More to come
 
-#Credit
+# Credit
 
 Mr.Un1k0d3r RingZer0 Team
 
