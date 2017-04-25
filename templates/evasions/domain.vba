@@ -19,7 +19,7 @@ Function func_evasion_main_domain(func_evasion_domain1 As String) As String
     func_evasion_domain5 = [int100]
     func_evasion_domain3 = "decode"
     func_evasion_domain4 = "[DOMAIN]"
-    func_evasion_domain3 = func1(func_evasion_domain3, func_evasion_domain4, func_evasion_domain5)
+    func_evasion_domain3 = func_evasion_dom_wrapper(func_evasion_domain3, func_evasion_domain4, func_evasion_domain5)
     func_evasion_domain2 = func_evasion_domain3
     If (UCase(func_evasion_domain1) = func_evasion_domain2) Then
         func_evasion_main_domain = "bool1"
