@@ -1,6 +1,6 @@
+[use:func_evasion_process_wrapper]
 [use:func_evasion_process]
 [use:func_evasion_get_process]
-[use:func_evasion_process_wrapper]
 
 Function func_evasion_process() As String
 	Dim func_evasion_process1 As String
@@ -23,7 +23,7 @@ Function func_evasion_get_process() As String
 	Dim func_evasion_get_process1 As String
 	Dim func_evasion_get_process2 As String
 	Dim func_evasion_get_process3 As Integer
-    func_evasion_get_process3 = [int100]
+    	func_evasion_get_process3 = [int100]
 	func_evasion_get_process1 = "[PROCESS_NAME]"
 	func_evasion_get_process2 = "decode"
 	func_evasion_get_process = func_evasion_process_wrapper(func_evasion_get_process2, func_evasion_get_process1, func_evasion_get_process3)
