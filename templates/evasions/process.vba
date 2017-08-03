@@ -13,7 +13,7 @@ Function func_evasion_process() As String
 	func_evasion_process1 = "data1"
 	func_evasion_process1 = func_evasion_get_process()
 	For Each func_evasion_process4 In func_evasion_process3
-		If func_evasion_process4.Name = func_evasion_process1 Then
+		If LCase(func_evasion_process4.Name) = func_evasion_process1 Then
 			func_evasion_process = "bool2"
 		End If
 	Next
