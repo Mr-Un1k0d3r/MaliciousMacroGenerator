@@ -58,6 +58,10 @@ The macro is looking for the total memory size. Vms and test machines use less r
 
 The macro is looking for the system uptime. Sandboxes will return a short uptime.
 
+###### Process check
+
+The macro is checking if a specific process is running (example outlook.exe)
+
 ###### Obfuscation 
 
 The python script will also generate obfuscated code to avoid heuristic detection
