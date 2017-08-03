@@ -1,0 +1,13 @@
+{
+	"description": "Command exec payload using WMI Win32_Process class\nEvasion technique set to check running process",
+	"template": "templates/payloads/wmi-evasion-process-template.vba",
+	"varcount": 150,
+	"encodingoffset": 4,
+	"chunksize": 200,
+	"encodedvars": 	{
+				"PROCESS_NAME":"outlook.exe"
+			},
+	"vars": 	[],
+	"evasion": 	["encoder", "process"],
+	"payload": "cmd.exe /c whoami"
+}
