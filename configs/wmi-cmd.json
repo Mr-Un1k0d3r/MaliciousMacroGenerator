@@ -1,6 +1,6 @@
 {
 	"description": "Command exec payload using WMI Win32_Process class\nEvasion technique set to none",
-	"template": "templates/payloads/wmi-cmd-template.vba",
+	"template": "templates/payloads/wmi-template.vba",
 	"varcount": 150,
 	"encodingoffset": 3,
 	"chunksize": 200,
