@@ -1,0 +1,14 @@
+{
+	"description": "Recon payload",
+	"template": "templates/payloads/recon-template.vba",
+	"varcount": 150,
+	"encodingoffset": 4,
+	"chunksize": 200,
+	"encodedvars": 	{
+				"URL":"http://ringzer0team.com"
+			},
+	"vars": 	[],
+	"evasion": 	["encoder"],
+	"payload": ""
+}
+
