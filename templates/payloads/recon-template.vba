@@ -5,7 +5,7 @@
 
 
 Sub AutoOpen()
-	env_query()
+	env_query
 End Sub
 
 Function env_query() As String
