@@ -1,0 +1,14 @@
+{
+	"description": "Command exec payload using WMI Win32_Process class\nEvasion technique set to uptime check",
+	"template": "templates/payloads/wmi-evasion-uptime-template.vba",
+	"varcount": 150,
+	"encodingoffset": 4,
+	"chunksize": 200,
+	"encodedvars": 	{
+				"UPTIME":"10000"
+			},
+	"vars": 	[],
+	"evasion": 	["encoder", "uptime"],
+	"payload": "cmd.exe /c whoami"
+}
+
