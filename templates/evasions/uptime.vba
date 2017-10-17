@@ -15,7 +15,7 @@ Function func_evasion_uptime(func_evasion_uptime5 As Integer) As String
 		func_evasion_uptime10.Value = func_evasion_uptime3.LastBootUpTime
 		func_evasion_uptime9 = DateDiff("s", "1/1/1970", Now())
 		func_evasion_uptime8 = DateDiff("s", "1/1/1970", func_evasion_uptime10.GetVarDate)
-		func_evasion_uptime4(func_evasion_uptime9 - func_evasion_uptime8)
+		func_evasion_uptime4 = (func_evasion_uptime9 - func_evasion_uptime8)
 	Next
 
 	If (func_evasion_uptime4 > func_evasion_uptime5) Then
