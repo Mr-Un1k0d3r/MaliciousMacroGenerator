@@ -1,12 +1,12 @@
 [use:func_evasion_uptime]
 
-Function func_evasion_uptime(func_evasion_uptime5 As Integer) As String
+Function func_evasion_uptime(func_evasion_uptime5 As Long) As String
 	On Error Resume Next
 	Dim func_evasion_uptime1 As Object
 	Dim func_evasion_uptime2 As Object
 	Dim func_evasion_uptime10 As Object
 
-	Dim func_evasion_uptime4 As Integer
+	Dim func_evasion_uptime4 As Long
 	Dim func_evasion_uptime6 As String
 	Set func_evasion_uptime1 = GetObject(decode("{[winmgmts:\\.\root\cimv2]}"))
 	Set func_evasion_uptime2 = func_evasion_uptime1.ExecQuery(decode("{[SELECT LastBootUpTime FROM Win32_OperatingSystem]}"))
