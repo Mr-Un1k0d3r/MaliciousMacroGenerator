@@ -61,7 +61,10 @@ class Encoder:
         return self.__rand_int(buffer, "smallint", 1, 2)
     
     def rand_int(self, buffer):
-        return self.__rand_int(buffer, "int", 2, 5)
+        current = self.__rand_int(buffer, "int", 2, 5)
+        if current < 100:
+                self.rand_int(self, buffer)
+        return current
     
     def __rand_int(self, buffer, var, min, max):
         iterator = self.helper.GetConfig("varcount")
