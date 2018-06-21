@@ -1,0 +1,13 @@
+{
+	"description": "Command exec payload Certutil and MSBuild Whitelisting Bypass using WMI \nEvasion technique set to domain check",
+	"template": "templates/payloads/wmi-msbuild-evasion-domain-template.vba",
+	"varcount": 150,
+	"encodingoffset": 3,
+	"chunksize": 200,
+	"encodedvars": 	{
+				"DOMAIN":"TEST"
+			},
+	"vars": 	[],
+	"evasion": 	["encoder", "domain"],
+	"payload": "INSERT YOUR PAYLOAD BASE64 MSBUILD XML HERE"
+}
