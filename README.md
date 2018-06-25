@@ -10,13 +10,18 @@ Python 2.7
 # Usage
 ```
 MMG.Malicious Macro Generator v2.0 - RingZer0 Team
-Author: Mr.Un1k0d3r
+Author: Mr.Un1k0d3r mr.un1k0d3r@gmail.com
 
-Usage: MMG.py [config] [output] (optional -list)
+Usage: MMG.py [config] [output] (optional parameters)
 
-        config  Config file that contain generator information
-        output  Output filename for the macro
-        -list   List all available payloads and evasion techniques
+        [config]                                Config file that contain generator information
+        [output]                                Output filename for the macro
+
+        -l      --list                          List of all available payloads and evasion techniques
+        -s      --split_strings                 Randomly split strings at parts
+        -x      --strings_to_hex                Encode strings to hex
+
+[-] Error: Missing arguments.
 
 python MMG.py configs/generic-cmd.json malicious.vba
 ```
