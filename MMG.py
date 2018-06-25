@@ -26,6 +26,12 @@ if __name__ == "__main__":
     for var in encodedvars:
         data = encoder.replace_var(data, var, encodedvars[var], True)
     
+    if "-s" in sys.argv or "--split_strings" in sys.argv:
+        data = encoder.split_strings(data)
+    if "-x" in sys.argv or "--strings_to_hex" in sys.argv:
+        decoder = helper.LoadFile("templates/evasions/hex-decode.vba")
+        data = encoder.strings_to_hex(data, decoder)
+
     data = encoder.chunk_payload(data, helper.GetConfig("payload"))
     
     helper.SaveFile(sys.argv[2], data).ProcessCompleted()
