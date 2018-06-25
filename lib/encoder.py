@@ -1,6 +1,7 @@
 import random
 import string
 import re
+import codecs
 
 class Encoder:
     
@@ -107,3 +108,39 @@ class Encoder:
             args = args[:-3]
     
         return buffer.replace("[payload]", vars).replace("[payload_args]", args)
+
+
+    def split_strings(self, buffer):
+        for detected_str in re.findall(r'"(.+?)"', buffer):
+            if len(detected_str) > 5:
+                random_number = random.randint(1, len(detected_str) // 2)
+                st = 0
+                new_str = ''
+                for i in range(random_number):
+                    random_value = random.randint(1, (len(detected_str) - st) // (random_number - i))
+                    if random_value > 3:
+                        new_str += detected_str[st:st+random_value] + "\" & \""
+                        st += random_value
+                new_str += detected_str[st:]
+                buffer = buffer.replace(detected_str, new_str)
+        return buffer
+
+
+    def strings_to_hex(self, buffer, vba_decoder):
+        encoded_function_name = self.gen_str(random.randrange(5, 15))
+        encoded_var_name1 = self.gen_str(random.randrange(5, 15))
+        encoded_var_name2 = self.gen_str(random.randrange(5, 15))
+        for detected_str in re.findall(r'"(.+?)"', buffer):
+            r = random.randint(1, 10)
+            if r > 7:
+                encoded_bytes = codecs.encode(bytes(detected_str), 'hex_codec')
+                new_str = encoded_function_name + "(\"" + str(encoded_bytes.decode("ascii")) + "\")"
+                word_to_replace = "\"" + detected_str + "\""
+                buffer = str(buffer.replace(word_to_replace, new_str))
+
+        vba_decoder = vba_decoder.replace("HexToStr", encoded_function_name)
+        vba_decoder = vba_decoder.replace("counter", encoded_var_name1)
+        vba_decoder = vba_decoder.replace("hexString", encoded_var_name2)
+
+        buffer += "\n\n" + vba_decoder
+        return buffer
