@@ -12,16 +12,26 @@ class Helper:
         self.config = {}
     
     def ValidateArgv(self):
-        if "-list" in self.argv:
+        if "-l" in self.argv or "--list" in self.argv:
             self.ListModules()
-            exit(0)
-        
-        if len(self.argv) < 3:
+            self.Exit()
+
+        if "-h" in self.argv or "--help" in self.argv:
+            self.HelpMenu()
+            self.Exit()
+
+        elif len(self.argv) < 3:
             self.HelpMenu()
             self.ExitShowError("Missing arguments.")
             
     def HelpMenu(self):
-        print "Usage: %s [config] [output] (optional -list)\n\n\tconfig\tConfig file that contain generator information\n\toutput\tOutput filename for the macro\n\t-list\tList all available payloads and evasion techniques" % self.argv[0]
+        print "Usage: %s [config] [output] (optional parameters)\n" \
+            "\n" \
+            "\t[config]\t\t\t\tConfig file that contain generator information" \
+            "\n\t[output]\t\t\t\tOutput filename for the macro\n" \
+            "\n\t-l\t--list\t\t\t\tList of all available payloads and evasion techniques" \
+            "\n\t-s\t--split_strings\t\t\tRandomly split strings at parts" \
+            "\n\t-x\t--strings_to_hex\t\tEncode strings to hex" % self.argv[0]
         
     def Banner(self):
         print "MMG.Malicious Macro Generator v%s - RingZer0 Team\nAuthor: Mr.Un1k0d3r mr.un1k0d3r@gmail.com\n" % Helper.VERSION
