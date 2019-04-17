@@ -42,7 +42,10 @@ class Helper:
     def ExitShowError(self, error):
         print "\n[-] Error: %s" % error
         exit(0)
-        
+
+    def Exit(self):
+        exit(0)
+
     def PrintSuccess(self, message):
         print "[+] %s" % message
         
